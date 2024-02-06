@@ -1,0 +1,12 @@
+{
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 15,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'MesloLGS NF', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "cSpell.words": [
+        "levelname"
+    ]
+}

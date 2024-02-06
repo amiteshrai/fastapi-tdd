@@ -1,0 +1,14 @@
+{
+    "keybindings": [
+        {
+            "key": "ctrl+z",
+            "command": "undo",
+            "when": "editorTextFocus"
+        },
+        {
+            "key": "ctrl+shift+z",
+            "command": "redo",
+            "when": "editorTextFocus"
+        }
+    ]
+}
