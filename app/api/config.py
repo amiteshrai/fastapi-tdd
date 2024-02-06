@@ -1,10 +1,12 @@
 """_summary_
 """
 
-from pydantic_settings import BaseSettings
 from functools import lru_cache
 
-from app.logger import get_logger
+from pydantic_settings import BaseSettings
+from pydantic import AnyUrl
+
+from api.logger import get_logger
 
 log = get_logger()
 
@@ -17,6 +19,7 @@ class Settings(BaseException):
     """
     environment: str = "dev"
     testing: bool = bool(0)
+    database_url: AnyUrl = None
 
 
 @lru_cache()
